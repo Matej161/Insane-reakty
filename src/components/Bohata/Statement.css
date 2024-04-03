@@ -1,0 +1,18 @@
+.bohata-statement-section {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 4vh;
+    text-align: center;
+    background: linear-gradient(to right, blueviolet, pink);
+    animation: infinite spin;
+}
+
+@keyframes spin {
+    25% {
+        transform: rotate(180);
+    }
+    75% {
+        transform: rotate(360);
+    }
+}
